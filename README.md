@@ -9,10 +9,6 @@ I have skills in :
 - Data Visualisation using MS Excel & Tableau. 
 - Statistical analysis, Hypothesis testing(A/B Testing)
 
-# Current Project:
-**Recommendation model for their social networking application:** 
-Currently working as a Data Scientist with MOPO Life, on building a recommendation model based on Monotonic Behavior Chains (chainRec) for their social networking application where they can connect with like-minded individuals.
-
 **Skills and Expertise**
 **Data Analysis:** Data Modelling, Data Wrangling, Python (Pandas, NumPy, scikit, matplotlib, TensorFlow), Django, SQL, R, SPSS, MATLAB, Statistical analysis, Hypothesis testing, Big Data analytics
 
