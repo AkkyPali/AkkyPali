@@ -122,6 +122,91 @@
             transform: translateY(-2px);
         }
 
+        .blogs {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            margin-bottom: 40px;
+            border: 1px solid #e8e8e8;
+        }
+
+        .blogs h3 {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            font-weight: 400;
+        }
+
+        .blog-posts {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .blog-post {
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            background: #f8f9fa;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .blog-post:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .blog-post h4 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .blog-post h4 a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .blog-post h4 a:hover {
+            color: #667eea;
+        }
+
+        .blog-post p {
+            color: #666;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .reading {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            margin-bottom: 40px;
+            border: 1px solid #e8e8e8;
+            text-align: center;
+        }
+
+        .reading h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-weight: 400;
+        }
+
+        .reading p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .reading-link {
+            margin-top: 20px;
+        }
+
         .contact {
             background: white;
             padding: 40px;
@@ -267,17 +352,43 @@
             </div>
         </section>
 
+        <section class="blogs fade-in">
+            <h3>Featured Articles</h3>
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <h4><a href="https://medium.com/nerd-for-tech/yolo-explained-to-1st-year-engg-student-84b52fccb7ad" target="_blank">YOLO Explained to 1st Year Engineering Student</a></h4>
+                    <p>A beginner-friendly explanation of the YOLO (You Only Look Once) object detection algorithm. Breaking down complex computer vision concepts into simple terms that engineering students can easily understand and implement.</p>
+                </div>
+                <div class="blog-post">
+                    <h4><a href="https://medium.com/codex/what-no-one-tells-recent-data-graduates-about-job-applications-96e44a602022" target="_blank">What No One Tells Recent Data Graduates About Job Applications</a></h4>
+                    <p>Practical insights and honest advice for data science graduates entering the job market. Covers the real challenges, expectations, and strategies that can make or break your job search in the competitive data science field.</p>
+                </div>
+                <div class="blog-post">
+                    <h4><a href="https://medium.com/nerd-for-tech/steps-to-a-b-testing-using-ms-excel-82b6b7b6d19f" target="_blank">Steps to A/B Testing Using MS Excel</a></h4>
+                    <p>A comprehensive guide to conducting A/B tests using Microsoft Excel for data analysis. Demonstrates how to perform statistical experiments and draw meaningful conclusions without expensive specialized tools.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="reading fade-in">
+            <h3>Beyond Code & Data</h3>
+            <p>When I'm not building ML models or writing about data science, you can find me immersed in a good book. I'm passionate about continuous learning through reading, exploring everything from technical literature to thought-provoking non-fiction.</p>
+            <div class="reading-link">
+                <a href="https://www.goodreads.com/user/show/34133440" class="contact-btn" target="_blank">View My Reading List</a>
+            </div>
+        </section>
+
         <section class="contact fade-in">
             <h3>Get in Touch</h3>
             <p>Interested in collaborating or learning more about my work? Don't hesitate to reach out!</p>
             <div class="contact-links">
-                <a href="mailto:your.email@example.com" class="contact-btn">Email Me</a>
-                <a href="your-resume.pdf" class="contact-btn" target="_blank">View Resume</a>
+                <a href="mailto:akanksha11.aiesec@gmail.com" class="contact-btn">Email Me</a>
+                <a href="https://www.linkedin.com/in/akanksha-paliwal-91824a59/" class="contact-btn" target="_blank">LinkedIn</a>
             </div>
             <div class="social-links">
-                <a href="https://linkedin.com/in/yourprofile" class="social-link" target="_blank">in</a>
-                <a href="https://github.com/yourusername" class="social-link" target="_blank">gh</a>
-                <a href="https://twitter.com/yourusername" class="social-link" target="_blank">tw</a>
+                <a href="https://www.linkedin.com/in/akanksha-paliwal-91824a59/" class="social-link" target="_blank">in</a>
+                <a href="https://github.com/AkkyPali" class="social-link" target="_blank">gh</a>
+                <a href="https://medium.com/@akankshapaliwal" class="social-link" target="_blank">M</a>
             </div>
         </section>
     </div>
